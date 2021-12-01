@@ -1,0 +1,285 @@
+.takePhoto {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+  }
+  
+  #cap {
+    border: 2px solid gray;
+    color: gray;
+    background-color: white;
+    padding: 8px 20px;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .upload-btn-wrapper input[type=file] {
+    font-size: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+  }
+
+  body { 
+    background-image: url('https://jolly-kalam-23776e.netlify.app/restaurantwebsite/assets/images/topography.svg' ) , linear-gradient(
+        450deg
+        , #f93d66, #6d47d9,white);;
+    background-size: 340px, auto;
+ 
+   
+    }
+
+#a1{
+    text-align: center;
+    font-size: 48px;
+    text-decoration: black;
+    font-family: 'Times New Roman';
+    font-weight: 800;
+    margin: 32.19px;
+}
+
+#a2{
+
+    width: 800px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 8cm;
+    margin-right: 8cm;
+    padding: 20px 10px 10px 10px;
+    background-color: #f3f3f3;
+    border-radius: 10px;
+    display: block;
+    text-align: center;
+
+}
+
+#p{
+    text-decoration: black;
+    font-size: 22px;
+    text-align: center;
+    font-weight: 100;
+    display: block;
+ 
+} 
+
+#y1,#y2,#y3{
+    
+    display:inline-block;
+    
+    height: 20px;
+    width: 280px;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #c0c0c0;
+    border-radius: 4px;
+
+    text-align: left;
+    width: 48%;
+    vertical-align: middle;
+
+}
+
+#z1,#z2,#z3,#z4,#z5,#z7,#z9,#z15{
+    display: inline-block;
+    text-align: right;
+    width: 40%;
+    padding: 5px;
+    vertical-align: top;
+    margin-right: 10px;
+    margin-top: 10px;
+    
+}
+
+#y4{
+    display:inline-block;
+    
+    height: 30px;
+    width: 280px;
+    padding: 5px;
+    padding-bottom: 0px;
+    padding-bottom: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #c0c0c0;
+    border-radius: 4px;
+    
+    text-align: left;
+    width: 48%;
+    vertical-align: middle;
+
+}
+
+#y5{
+    margin-left: 5mm;
+    margin-top: 20px;
+    
+  }
+
+#z6{
+    margin-right: 270px;
+}
+
+#y6{
+    margin-left: 26.4mm;
+    margin-top: 10px;
+    vertical-align:auto;
+}
+
+#y7{
+    margin-left: 26.4mm;
+    margin-top: 10px;
+    vertical-align:auto;
+}
+
+#z10{
+    margin-right: 280px;
+}
+
+#y8{
+    margin-left: 5mm;
+    margin-top: 34px;  
+  }
+
+#y9{
+    margin-top: 5px;
+    margin-left: 86.16px;
+}
+
+#y10{
+    margin-top: 10px;
+    margin-left: 82.5px;
+}
+
+#y11{
+    margin-top: 10px;
+    margin-left: 145.15px;
+}
+
+#y12{
+     margin-top: 10px;
+     margin-left: 101px;
+}
+
+#y13{
+    height: 50px;
+    resize: vertical;
+    margin: 10px;
+    padding: 5px;
+    border: 1px solid #c0c0c0;
+    border-radius: 4px;
+    margin-right: 130px;
+    padding-right: 70px;
+    font-family: "Open Sans Condensed";
+
+}
+
+.y13::-webkit-input-placeholder{
+    text-rendering: auto;
+    color: -internal-light-dark(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+    -webkit-rtl-ordering: logical;
+    flex-direction: column;
+    cursor: text;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+    column-count: initial !important;
+
+
+
+    height: 50px;
+    resize: vertical;
+}
+
+.y13::placeholder{
+    text-rendering: auto;
+    color: -internal-light-dark(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+    -webkit-rtl-ordering: logical;
+    flex-direction: column;
+    cursor: text;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+    column-count: initial !important;
+
+}
+
+.y13::-moz-placeholder{
+    text-rendering: auto;
+    color: -internal-light-dark(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+    -webkit-rtl-ordering: logical;
+    flex-direction: column;
+    cursor: text;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+    column-count: initial !important;
+
+}
+
+.y13::ms-input-placeholder{
+    text-rendering: auto;
+    color: -internal-light-dark(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+    -webkit-rtl-ordering: logical;
+    flex-direction: column;
+    cursor: text;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+    column-count: initial !important;
+
+}
+
+#y0{
+    font-size: 1em;
+    background-color: #75a3c9;
+    color: rgb(247, 253, 253);
+    border: 0px solid;
+    border-radius: 4px;
+    height: 40px;
+    width: 80px;
+    margin: 10px;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+}
+

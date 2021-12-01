@@ -1,0 +1,71 @@
+.container{
+    border: 5px solid #ffcc5c;
+    flex-direction:row-reverse;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    display:flex;
+}
+
+body { 
+    background-image: url('https://jolly-kalam-23776e.netlify.app/restaurantwebsite/assets/images/topography.svg' ) , linear-gradient(
+        450deg
+        , #f93d66, #6d47d9,white);;
+    background-size: 340px, auto;
+       
+        font-family: 'Raleway', sans-serif;
+        font-weight: 400;
+        max-width: 600px;
+        margin: auto;
+        padding-top: 20px;
+        line-height: 12mm;
+   
+    }
+    ul{
+        text-align:center;
+        margin: 0%;
+        background-repeat: no-repeat;
+        overflow: hidden;
+        background-color: black;
+    }
+    
+    li a{
+        display: block;
+        background-color: rgb(15, 13, 13);
+        font-stretch: semi-condensed;
+        font-style: normal;
+        list-style-type: none;
+        padding: 10px 60px;
+        font-size: 25px;
+        text-decoration: none;
+        color: white;
+    
+    }
+    
+    li{
+        float: left;
+
+    }
+    #form1{
+        padding-right: 30px;
+        padding-top: 10px;
+        margin-left: 250px;
+        margin-top: 10px;
+    }
+    .item1,.item2,.item3,.item4{
+        font-size: 5mm;
+        color: white;
+        background-color: lightblue;
+        order: 3;
+    }
+    
+    .container div{
+        margin: 10px;
+        text-align: center;
+        font-size: 5mm;
+        color: white;
+    }
+
+.video{
+    margin-top: 20px;
+}
